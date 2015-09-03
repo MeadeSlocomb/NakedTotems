@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  background-color: RGBA(255, 250, 234, 1);
+  font-family: 'Poiret One', cursive; }
+
+h1 {
+  font-size: 60px;
+  margin: 30px;
+  color: RGBA(72, 50, 12, 1); }
+
+ul {
+  display: inline-block; }
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 30px;
+  color: RGBA(72, 50, 12, 1); }
+
+a {
+  text-decoration: none; }
+
+ul:hover a li {
+  color: RGBA(207, 209, 210, 1); }
+
+li:hover {
+  color: RGBA(72, 50, 12, 1) !important; }
