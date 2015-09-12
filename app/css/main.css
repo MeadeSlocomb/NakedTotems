@@ -3,11 +3,22 @@
   background-color: RGBA(255, 250, 234, 1);
   font-family: 'Poiret One', cursive; }
 
-h1 {
-  font-size: 60px;
+.headline {
+  font-size: 72px;
   margin: 30px;
   color: RGBA(72, 50, 12, 1);
-  font-weight: light; }
+  font-weight: light;
+  display: block; }
+
+.location1 {
+  position: absolute;
+  top: 93%;
+  left: 30px; }
+
+.location2 {
+  position: absolute;
+  top: 96%;
+  left: 30px; }
 
 ul {
   display: inline-block;
@@ -88,3 +99,69 @@ nav:hover a {
 
 a:hover {
   color: RGBA(72, 50, 12, 1) !important; }
+
+.shopHeadline {
+  font-size: 50px;
+  margin: 40px;
+  color: black; }
+
+.storeHead {
+  font-size: 30px;
+  margin: 0 0 50px 130px; }
+
+.productDiv {
+  width: 100%;
+  margin-left: 100px;
+  position: relative; }
+
+.productDivider {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30px;
+  border-bottom: 1px solid #cacaca; }
+
+.productImg {
+  width: 85px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in; }
+
+.productTitle {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  font-size: 22px;
+  font-family: 'Arial', sans-sarif; }
+
+.desc {
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  font-family: 'Arial', sans-sarif; }
+
+.productDesc {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  font-family: 'Arial', sans-sarif; }
+
+.productDimensions {
+  position: absolute;
+  top: 75px;
+  left: 150px;
+  font-family: 'Arial', sans-sarif; }
+
+.productPrice {
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  font-family: 'Arial', sans-sarif; }
+
+.buyBtn {
+  position: absolute;
+  top: 110px;
+  left: 250px; }
